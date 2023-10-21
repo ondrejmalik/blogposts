@@ -8,7 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae82e378-eacb-4946-9ccd-10565bebba9a" name="Changes" comment="2nd linux test" />
+    <list default="true" id="ae82e378-eacb-4946-9ccd-10565bebba9a" name="Changes" comment="All trim = 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +45,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cff4d35895d3db30db86a0ec21297ac77589b961f6e219dede5a24aff0bb3b8d/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e4aeff2964b57fa3d88b3b827c8344358321bf183055702dd3aed52b8f7c97/ComponentState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f324c62785677b53e916aa9084ae54a42014c79d132908ae191cf8e3af4cfb/File.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/om777/OneDrive/Dokumenty/Projects/BlazorApp1/BlazorApp1/Pages/Blog.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -137,7 +138,7 @@
       <workItem from="1697753498012" duration="958000" />
       <workItem from="1697754491922" duration="11978000" />
       <workItem from="1697846046359" duration="10768000" />
-      <workItem from="1697911025944" duration="789000" />
+      <workItem from="1697911025944" duration="1170000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -187,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697911574036</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="trimmed = 5">
+      <option name="closed" value="true" />
+      <created>1697911967459</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697911967459</updated>
+    </task>
+    <task id="LOCAL-00008" summary="All trim = 5">
+      <option name="closed" value="true" />
+      <created>1697912195165</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697912195165</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +230,8 @@
     <MESSAGE value="progress 2 (first working)" />
     <MESSAGE value="first linux test" />
     <MESSAGE value="2nd linux test" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd linux test" />
+    <MESSAGE value="trimmed = 5" />
+    <MESSAGE value="All trim = 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="All trim = 5" />
   </component>
 </project>
