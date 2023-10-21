@@ -8,10 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae82e378-eacb-4946-9ccd-10565bebba9a" name="Changes" comment="first linux test">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/dataSources/0edc133c-e610-4a38-8bd1-09e8f3ccdca8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/dataSources/0edc133c-e610-4a38-8bd1-09e8f3ccdca8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/Pages/Blog.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/Pages/Blog.razor" afterDir="false" />
-    </list>
+    <list default="true" id="ae82e378-eacb-4946-9ccd-10565bebba9a" name="Changes" comment="2nd linux test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +137,7 @@
       <workItem from="1697753498012" duration="958000" />
       <workItem from="1697754491922" duration="11978000" />
       <workItem from="1697846046359" duration="10768000" />
-      <workItem from="1697911025944" duration="382000" />
+      <workItem from="1697911025944" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -182,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697911113861</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2nd linux test">
+      <option name="closed" value="true" />
+      <created>1697911574036</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697911574036</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +212,7 @@
     <MESSAGE value="proggress 1" />
     <MESSAGE value="progress 2 (first working)" />
     <MESSAGE value="first linux test" />
-    <option name="LAST_COMMIT_MESSAGE" value="first linux test" />
+    <MESSAGE value="2nd linux test" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd linux test" />
   </component>
 </project>

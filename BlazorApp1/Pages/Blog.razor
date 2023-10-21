@@ -38,7 +38,7 @@
 
     private async Task HandleFileUpload()
     {
-        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 5);
         string trimmedtxt;
     // nastaveni tak aby byly serazeny podle data
         trimmed = trimmed + "wwwroot/images/" + "image" + DateTime.Now.Year + DateTime.Now.Month + DateTime.Now.Day + DateTime.Now.Hour + DateTime.Now.Minute + DateTime.Now.Second + ".jpg";
