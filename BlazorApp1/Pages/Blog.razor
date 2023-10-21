@@ -7,11 +7,13 @@
     CountImages();
     CountTexts();
 }
-<input type="submit"  @onclick="Post">
+<input type="submit" @onclick="Post">
 @for (int i = 0; i < images.Length; i++)
 {
-    <p></p>
-    <img src="images/@images[i]"/>
+    <div id="post @i">
+        <p>@texts[i].ToString()</p>
+        <img src="images/@images[i]" width="100px" height="100px"/>
+    </div>
 }
 
 @code
@@ -19,7 +21,7 @@
     private string debugstr;
     private IBrowserFile selectedFile;
     private string[] images;
-    private string[]  texts;
+    private string[] texts;
     private string text;
 
     private void setSelectedFile(InputFileChangeEventArgs e)
@@ -84,11 +86,18 @@
         images = Directory.GetFiles(trimmed).Select(Path.GetFileName).Where(fileName => fileName.EndsWith(".jpg")).OrderByDescending(fileName => fileName).ToArray();
         debugstr = images.Length.ToString();
     }
+
     private void CountTexts()
     {
         string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
         trimmed = trimmed + "wwwroot\\images\\";
-        texts = Directory.GetFiles(trimmed).Where(fileName => fileName.EndsWith(".txt")).OrderByDescending(fileName => fileName).ToArray();
-        debugstr = images.Length.ToString();
+        string[] textPaths = Directory.GetFiles(trimmed).Where(fileName => fileName.EndsWith(".txt")).OrderByDescending(fileName => fileName).ToArray();
+        texts = new string[textPaths.Length];
+        for (int i = 0; i < textPaths.Length; i++)
+        {
+            texts[i] = File.ReadAllText(textPaths[i]);
+        }
+        debugstr = texts.Length.ToString();
     }
 }
+
