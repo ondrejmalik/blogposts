@@ -81,7 +81,7 @@
 
     private void CountImages()
     {
-        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 5);
         trimmed = trimmed + "wwwroot/images/";
         images = Directory.GetFiles(trimmed).Select(Path.GetFileName).Where(fileName => fileName.EndsWith(".jpg")).OrderByDescending(fileName => fileName).ToArray();
         debugstr = images.Length.ToString();
@@ -89,7 +89,7 @@
 
     private void CountTexts()
     {
-        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 5);
         trimmed = trimmed + "wwwroot/images/";
         string[] textPaths = Directory.GetFiles(trimmed).Where(fileName => fileName.EndsWith(".txt")).OrderByDescending(fileName => fileName).ToArray();
         texts = new string[textPaths.Length];
