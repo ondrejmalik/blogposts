@@ -41,7 +41,7 @@
         string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
         string trimmedtxt;
     // nastaveni tak aby byly serazeny podle data
-        trimmed = trimmed + "wwwroot\\images\\" + "image" + DateTime.Now.Year + DateTime.Now.Month + DateTime.Now.Day + DateTime.Now.Hour + DateTime.Now.Minute + DateTime.Now.Second + ".jpg";
+        trimmed = trimmed + "wwwroot/images/" + "image" + DateTime.Now.Year + DateTime.Now.Month + DateTime.Now.Day + DateTime.Now.Hour + DateTime.Now.Minute + DateTime.Now.Second + ".jpg";
     //set txt path
         string directory = Path.GetDirectoryName(trimmed);
         string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(trimmed);
@@ -67,7 +67,7 @@
 
     string TrimPath(string path, int levelsToRemove)
     {
-        string[] parts = path.TrimEnd('\\').Split(Path.DirectorySeparatorChar);
+        string[] parts = path.TrimEnd('/').Split(Path.DirectorySeparatorChar);
         if (parts.Length > levelsToRemove)
         {
             string[] trimmedParts = parts.Take(parts.Length - levelsToRemove).ToArray();
@@ -82,7 +82,7 @@
     private void CountImages()
     {
         string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
-        trimmed = trimmed + "wwwroot\\images\\";
+        trimmed = trimmed + "wwwroot/images/";
         images = Directory.GetFiles(trimmed).Select(Path.GetFileName).Where(fileName => fileName.EndsWith(".jpg")).OrderByDescending(fileName => fileName).ToArray();
         debugstr = images.Length.ToString();
     }
@@ -90,7 +90,7 @@
     private void CountTexts()
     {
         string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
-        trimmed = trimmed + "wwwroot\\images\\";
+        trimmed = trimmed + "wwwroot/images/";
         string[] textPaths = Directory.GetFiles(trimmed).Where(fileName => fileName.EndsWith(".txt")).OrderByDescending(fileName => fileName).ToArray();
         texts = new string[textPaths.Length];
         for (int i = 0; i < textPaths.Length; i++)
