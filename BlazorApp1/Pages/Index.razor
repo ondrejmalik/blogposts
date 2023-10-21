@@ -1,0 +1,103 @@
+﻿@page "/"
+@using MySqlConnector
+@using BCrypt.Net
+@inject NavigationManager NavigationManager
+<PageTitle>Index</PageTitle>
+<h1>@debugstr</h1>
+<form>
+    <label for="fname">Username</label>
+    <input type="text" id="fname" name="fname" @bind="username"><br><br>
+    <label for="lname">Password:</label>
+    <input type="text" id="lname" name="lname" @bind="password"><br><br>
+</form>
+<input type="submit" value="Login" @onclick="Login">
+<input type="submit" value="Register" @onclick="Register">
+
+@code
+{
+    private string username;
+    private string password;
+    private string debugstr;
+    private IBrowserFile selectedFile;
+    private string[] images;
+
+    private void Login()
+    {
+        debugstr = "Attempting to login...";
+        List<string> usernameList = new List<string>();
+        List<string> passwordList = new List<string>();
+        string connectionString = "Server=127.0.0.1;Database=credentials;User ID=root;Password=neurit159;";
+        using (MySqlConnection connection = new MySqlConnection(connectionString))
+        {
+            connection.Open();
+            MySqlCommand command = new MySqlCommand("SELECT * FROM credentials", connection);
+
+            using (MySqlDataReader reader = command.ExecuteReader())
+            {
+                int i = 0;
+                while (reader.Read())
+                {
+                    usernameList.Add(reader["username"].ToString());
+                    passwordList.Add(reader["password"].ToString());
+                    i++;
+                }
+            }
+
+            usernameIndex(usernameList, passwordList);
+            connection.Close();
+        }
+    }
+
+    private void Register()
+    {
+        debugstr = "";
+        try
+        {
+            string connectionString = "Server=127.0.0.1;Database=credentials;User ID=root;Password=neurit159;";
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "INSERT INTO credentials (username, password) VALUES (@username, @password)";
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@username", username);
+                command.Parameters.AddWithValue("@password", BCrypt.HashPassword(password));
+                command.ExecuteNonQuery();
+                debugstr = "Registration successful";
+                connection.Close();
+            }
+        }
+        catch (Exception e)
+        {
+            debugstr = "Registration failed. \r\n" + " Error: " + e.Message.ToString();
+        }
+    }
+
+
+    private void usernameIndex(List<string> usernameList, List<string> passwordList)
+    {
+        int i = 0;
+        foreach (string s in usernameList)
+        {
+            if (username == s)
+            {
+                passwordCheck(passwordList, i);
+                return;
+            }
+            i++;
+        }
+        debugstr = "Username not found";
+    }
+
+    private void passwordCheck(List<string> passwordList, int index)
+    {
+        if (BCrypt.Verify(password, passwordList[index]))
+        {
+            debugstr = "Password correct";
+            NavigationManager.NavigateTo("/blog");
+        }
+        else
+        {
+            debugstr = "Password incorrect";
+        }
+    }
+}

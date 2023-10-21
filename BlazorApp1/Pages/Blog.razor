@@ -1,0 +1,94 @@
+﻿@page "/blog"
+@using System.Text
+<h1>@debugstr</h1>
+<input type="text" @bind="text"><br><br>
+<InputFile OnChange="setSelectedFile"/>
+@{
+    CountImages();
+    CountTexts();
+}
+<input type="submit"  @onclick="Post">
+@for (int i = 0; i < images.Length; i++)
+{
+    <p></p>
+    <img src="images/@images[i]"/>
+}
+
+@code
+{
+    private string debugstr;
+    private IBrowserFile selectedFile;
+    private string[] images;
+    private string[]  texts;
+    private string text;
+
+    private void setSelectedFile(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        debugstr = selectedFile.Name;
+    }
+
+    private void Post()
+    {
+        debugstr = "test";
+        HandleFileUpload();
+    }
+
+    private async Task HandleFileUpload()
+    {
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        string trimmedtxt;
+    // nastaveni tak aby byly serazeny podle data
+        trimmed = trimmed + "wwwroot\\images\\" + "image" + DateTime.Now.Year + DateTime.Now.Month + DateTime.Now.Day + DateTime.Now.Hour + DateTime.Now.Minute + DateTime.Now.Second + ".jpg";
+    //set txt path
+        string directory = Path.GetDirectoryName(trimmed);
+        string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(trimmed);
+        trimmedtxt = Path.Combine(directory, fileNameWithoutExtension);
+        trimmedtxt = trimmedtxt + ".txt";
+
+        if (selectedFile != null && text != null || text != "")
+        {
+            byte[] imgfileBytes;
+            byte[] txtfileBytes;
+            using (var memoryStream = new MemoryStream())
+            {
+    //imagesave
+                await selectedFile.OpenReadStream().CopyToAsync(memoryStream);
+                imgfileBytes = memoryStream.ToArray();
+    //textsave
+                txtfileBytes = Encoding.ASCII.GetBytes(text);
+            }
+            File.WriteAllBytes(trimmed, imgfileBytes);
+            File.WriteAllBytes(trimmedtxt, txtfileBytes);
+        }
+    }
+
+    string TrimPath(string path, int levelsToRemove)
+    {
+        string[] parts = path.TrimEnd('\\').Split(Path.DirectorySeparatorChar);
+        if (parts.Length > levelsToRemove)
+        {
+            string[] trimmedParts = parts.Take(parts.Length - levelsToRemove).ToArray();
+            return string.Join(Path.DirectorySeparatorChar.ToString(), trimmedParts) + Path.DirectorySeparatorChar;
+        }
+        else
+        {
+            return path;
+        }
+    }
+
+    private void CountImages()
+    {
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        trimmed = trimmed + "wwwroot\\images\\";
+        images = Directory.GetFiles(trimmed).Select(Path.GetFileName).Where(fileName => fileName.EndsWith(".jpg")).OrderByDescending(fileName => fileName).ToArray();
+        debugstr = images.Length.ToString();
+    }
+    private void CountTexts()
+    {
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        trimmed = trimmed + "wwwroot\\images\\";
+        texts = Directory.GetFiles(trimmed).Where(fileName => fileName.EndsWith(".txt")).OrderByDescending(fileName => fileName).ToArray();
+        debugstr = images.Length.ToString();
+    }
+}
