@@ -340,3 +340,6 @@ C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\obj\Release\net
 C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\obj\Release\net6.0\linux-x64\BlazorApp1.pdb
 C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\obj\Release\net6.0\linux-x64\BlazorApp1.genruntimeconfig.cache
 C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\obj\Release\net6.0\linux-x64\ref\BlazorApp1.dll
+C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\bin\Release\net6.0\linux-x64\BCrypt.Net-Next.dll
+C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\bin\Release\net6.0\linux-x64\MySqlConnector.dll
+C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\obj\Release\net6.0\linux-x64\BlazorApp1.csproj.AssemblyReference.cache

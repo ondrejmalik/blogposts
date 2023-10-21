@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "ig93a0EZsIpvWw0SyfbUUTTW4nDZxbZKD9peHzavgNCvwDKusc1RDNO0tRLM1FWI5BU/urWvJSq5+t8U+PxpNg==",
+  "dgSpecHash": "lGVkYWfylY15/HsMZCytiaO5OhgKkOXtYlG6OtwEtBGqu67bQ7R3/J5gNNeSjYANXCZ2szU7x25R+WZGkqIPPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\om777\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\mysqlconnector\\2.3.0-beta.3\\mysqlconnector.2.3.0-beta.3.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.20\\microsoft.netcore.app.runtime.linux-x64.6.0.20.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\om777\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.20\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.20.nupkg.sha512",
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.20\\microsoft.netcore.app.host.linux-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

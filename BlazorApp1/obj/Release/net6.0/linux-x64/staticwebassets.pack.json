@@ -57,6 +57,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image202310214210.jpg",
+      "PackagePath": "staticwebassets\\images\\image202310214210.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image202310214210.txt",
+      "PackagePath": "staticwebassets\\images\\image202310214210.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102144547.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102144547.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102144547.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102144547.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image202310214492.jpg",
+      "PackagePath": "staticwebassets\\images\\image202310214492.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image202310214492.txt",
+      "PackagePath": "staticwebassets\\images\\image202310214492.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102145129.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102145129.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102145129.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102145129.txt"
+    },
+    {
       "Id": "obj\\Release\\net6.0\\linux-x64\\staticwebassets\\msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
