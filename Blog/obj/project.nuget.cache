@@ -1,16 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "WXh5qDp+TMCM26NbAWxG3NuAAtUMIq7aMNypVFN2g7DWKbmXgcFraRMRRrmX4COYi+nZsXacOuIqjbtKjI8KDA==",
+  "dgSpecHash": "OdvT5eNxelKtr3IYuaYAF0IPZ0bIlvNCD5Kc3qbo1kd+GMd3M1NRR2q1O2C5i2jglQxsPOufyF+JQnxwn+mj7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\om777\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\mysqlconnector\\2.3.0-beta.3\\mysqlconnector.2.3.0-beta.3.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\om777\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\om777\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+    "C:\\Users\\om777\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.20\\microsoft.netcore.app.host.linux-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }
