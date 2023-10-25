@@ -1,0 +1,133 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Blog.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blog.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221439.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231025221439.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221439.txt",
+      "PackagePath": "staticwebassets\\images\\image20231025221439.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221457.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231025221457.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221457.txt",
+      "PackagePath": "staticwebassets\\images\\image20231025221457.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221548.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231025221548.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221548.txt",
+      "PackagePath": "staticwebassets\\images\\image20231025221548.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221646.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231025221646.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221646.txt",
+      "PackagePath": "staticwebassets\\images\\image20231025221646.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221714.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231025221714.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221714.txt",
+      "PackagePath": "staticwebassets\\images\\image20231025221714.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221959.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231025221959.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025221959.txt",
+      "PackagePath": "staticwebassets\\images\\image20231025221959.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025222024.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231025222024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image20231025222024.txt",
+      "PackagePath": "staticwebassets\\images\\image20231025222024.txt"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Blog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Blog.props",
+      "PackagePath": "build\\Blog.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Blog.props",
+      "PackagePath": "buildMultiTargeting\\Blog.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Blog.props",
+      "PackagePath": "buildTransitive\\Blog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

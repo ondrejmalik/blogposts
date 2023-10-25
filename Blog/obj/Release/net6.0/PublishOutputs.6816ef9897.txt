@@ -1,0 +1,10 @@
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\Blog.exe
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\appsettings.json
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\Blog.dll
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\Blog.deps.json
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\Blog.runtimeconfig.json
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\Blog.pdb
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\BCrypt.Net-Next.dll
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\publish\MySqlConnector.dll
