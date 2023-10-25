@@ -57,6 +57,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231021203251.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231021203251.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231021203251.txt",
+      "PackagePath": "staticwebassets\\images\\image20231021203251.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231021203254.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231021203254.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231021203254.txt",
+      "PackagePath": "staticwebassets\\images\\image20231021203254.txt"
+    },
+    {
       "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image202310214210.jpg",
       "PackagePath": "staticwebassets\\images\\image202310214210.jpg"
     },
@@ -79,6 +95,78 @@
     {
       "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image202310214492.txt",
       "PackagePath": "staticwebassets\\images\\image202310214492.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102145129.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102145129.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102145129.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102145129.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102203433.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102203433.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102203433.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102203433.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231023153821.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231023153821.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231023153821.txt",
+      "PackagePath": "staticwebassets\\images\\image20231023153821.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231023153937.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231023153937.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231023153937.txt",
+      "PackagePath": "staticwebassets\\images\\image20231023153937.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231023154618.jpg",
+      "PackagePath": "staticwebassets\\images\\image20231023154618.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image20231023154618.txt",
+      "PackagePath": "staticwebassets\\images\\image20231023154618.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102316059.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102316059.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102316059.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102316059.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102461934.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102461934.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102461934.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102461934.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102462124.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102462124.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102462124.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102462124.txt"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102462211.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102462211.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\images\\image2023102462211.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102462211.txt"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props",

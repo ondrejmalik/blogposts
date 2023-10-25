@@ -8,7 +8,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae82e378-eacb-4946-9ccd-10565bebba9a" name="Changes" comment="All trim = 5" />
+    <list default="true" id="ae82e378-eacb-4946-9ccd-10565bebba9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/Pages/BlogWindows.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/Shared/Credentials.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153821.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153937.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023154618.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023154618.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102316059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102316059.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102461934.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102461934.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462124.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462211.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/BlazorApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/BlazorApp1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets/msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets/msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,18 +97,22 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2WxT8hU78Fb4ZnNsikJnwyKn826" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,7 +132,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Publish to folder.Publish BlazorApp1 to folder">
+  <component name="RunManager" selected=".NET Launch Settings Profile.BlazorApp1">
     <configuration name="Publish BlazorApp1 to folder (1)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="Release" platform="Any CPU" produce_single_file="true" runtime="win-x64" target_folder="$PROJECT_DIR$/BlazorApp1/bin/Release/net6.0/win-x64/publish" target_framework="net6.0" uuid_high="-6623921832433464093" uuid_low="-7545291320231940938" />
       <method v="2" />
@@ -138,7 +186,9 @@
       <workItem from="1697753498012" duration="958000" />
       <workItem from="1697754491922" duration="11978000" />
       <workItem from="1697846046359" duration="10768000" />
-      <workItem from="1697911025944" duration="1170000" />
+      <workItem from="1697911025944" duration="12078000" />
+      <workItem from="1698068025819" duration="11211000" />
+      <workItem from="1698263807882" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -204,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697912195165</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="linux release 2">
+      <option name="closed" value="true" />
+      <created>1697912325620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697912325620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +281,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="self contained" />
@@ -232,6 +291,69 @@
     <MESSAGE value="2nd linux test" />
     <MESSAGE value="trimmed = 5" />
     <MESSAGE value="All trim = 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="All trim = 5" />
+    <MESSAGE value="linux release 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="linux release 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlazorApp1/Pages/BlogWindows.razor</url>
+          <line>171</line>
+          <properties documentPath="C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\Pages\BlogWindows.razor" initialLine="93" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlazorApp1/Pages/BlogWindows.razor</url>
+          <line>192</line>
+          <properties documentPath="C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\Pages\BlogWindows.razor" initialLine="115" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlazorApp1/Pages/BlogWindows.razor</url>
+          <line>221</line>
+          <properties documentPath="C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\Pages\BlogWindows.razor" initialLine="146" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BlazorApp1/Pages/BlogWindows.razor</url>
+          <line>100</line>
+          <properties documentPath="C:\Users\om777\OneDrive\Dokumenty\Projects\BlazorApp1\BlazorApp1\Pages\BlogWindows.razor" initialLine="100" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,269 @@
+﻿@page "/blogWindows"//blogWindows
+@using System.Text
+@inject NavigationManager NavigationManager
+<h1>@debugstr</h1>
+@{
+    CheckLogin();
+}
+<div id="newMessageContainer">
+    <h1 id="NewPostHeader">Post</h1>
+    <div class="form-floating">
+        <input type="text" id="message" name="message" class="form-control" placeholder="message" @bind="text">
+        <label for="message">New message text</label>
+    </div>
+    <InputFile id="cudlik1" class="btn btn-primary btn-lg px-4 gap-3" OnChange="setSelectedFile"/>
+    @{
+        CountImages();
+        CountTexts();
+    }
+    <br>
+    <input type="submit" id="cudlik2" class="btn btn-primary btn-lg px-4 gap-3" @onclick="Post">
+</div>
+@for (int i = 0; i < images.Length; i++)
+{
+    try
+    {
+        <div id="post @i" class="post">
+            <p>@texts[i].ToString()</p>
+            <img class="obrazek" src="images/@images[i]"/>
+        </div>
+    }
+    catch (Exception e)
+    {
+        debugstr = "server file error";
+    }
+}
+<style>
+    body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1b1a1f;
+    }
+    page{
+    margin: 0px;
+    padding: 0px;
+    }
+    .post {
+       position: relative;
+       width: 20%;
+       left: 50%;
+       transform: translate(-50%);
+       background: #c0c0c0;
+       padding: 20px;
+       border-radius: 20px;
+       margin: 20px;
+    }
+    p{
+        color: black;
+        background-color: transparent;
+        font-size: 20px;
+        max-width: 100%;
+    }
+    h1{
+        color: black;
+        background-color: transparent;
+    }
+    #newMessageContainer{
+      position: relative;
+           width: 500px;
+           left: 50%;
+           transform: translate(-50%);
+           background: #c0c0c0;
+           padding: 20px;
+           border-radius: 20px;
+           margin: 20px;
+    }
+    #cudlik1{
+    position: relative;
+    margin: 10px;
+    width: 400px;
+    left: 50%;
+    transform: translate(-50%);
+    }
+    #cudlik2{
+    position: relative;
+    margin: 10px;
+    left: 50%;
+    transform: translate(-50%);
+   }
+   .obrazek{
+    position: relative;
+    width: 100%;
+    height: auto;
+    }
+    #NewPostHeader{
+    position: relative;
+    color: black;
+    }
+</style>
+<script>
+//var element = document.body;
+//element.style.backgroundColor = "background-color: #dbdbdb";
+document.onload = checkLocalStorageValue();
+    function switchMode() {
+        var element = document.body;
+        var element2 = document.getElementById("newMessageContainer");
+        var element3 = document.querySelectorAll("p");
+        //var element3 = document.getElementById("loginContainer");
+        var element4 = document.querySelectorAll('.post');
+        var element5 = document.getElementById('NewPostHeader');
+         var savedValue = localStorage.getItem('theme');
+        if (savedValue === 'light-mode') {
+          localStorage.setItem('theme', 'dark-mode');
+        } else {
+          localStorage.setItem('theme', 'light-mode');
+        }
+        element.classList.toggle("dark-mode");
+        element2.classList.toggle("dark-mode");
+        element5.classList.toggle("dark-mode");
+        //element3.classList.toggle("dark-mode");
+        for (var i = 0; i < element4.length; i++)
+        {
+            element4[i].classList.toggle("dark-mode");    
+        }
+        for (var i = 0; i < element3.length; i++)
+        {
+            element3[i].classList.toggle("dark-mode");    
+        }
+    }
+    function checkLocalStorageValue() {
+      var savedValue = localStorage.getItem('theme');
+      var checkbox = document.getElementById('darkModeSwitchCheckbox');
+          
+      if (savedValue === 'dark-mode') {
+      var element = document.body;
+      var element2 = document.getElementById("newMessageContainer");
+      var element3 = document.querySelectorAll("p");
+      var element4 = document.querySelectorAll('.post');
+      var element5 = document.getElementById('NewPostHeader');
+       element.classList.toggle("dark-mode");
+       if (element.classList.contains("dark-mode")) {
+                   }
+             else {
+                     element.classList.toggle("dark-mode");
+                   }
+       element2.classList.toggle("dark-mode");
+       //element3.classList.toggle("dark-mode");
+       element5.classList.toggle("dark-mode");
+       for (var i = 0; i < element4.length; i++)
+       {
+            element4[i].classList.toggle("dark-mode");    
+       }
+       for (var i = 0; i < element3.length; i++)
+       {
+           element3[i].classList.toggle("dark-mode");    
+       }
+       checkbox.checked = true;
+      } else {
+        console.log('Dark mode is not enabled.');
+        // Perform actions for default mode
+      }
+    }
+</script>
+@code
+{
+    private string debugstr;
+    private IBrowserFile selectedFile;
+    private string[] images;
+    private string[] texts;
+    private string text;
+
+    private void CheckLogin()
+    {
+        if (Credentials.loggedIn == false)
+        {
+            if (Credentials.firstTime == false) NavigationManager.NavigateTo("/");
+        }
+        Credentials.loggedIn = false;
+    }
+
+    private void setSelectedFile(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        debugstr = selectedFile.Name;
+    }
+
+    private void Post()
+    {
+        HandleFileUpload();
+    }
+
+    private async Task HandleFileUpload()
+    {
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        string trimmedtxt;
+    // nastaveni tak aby byly serazeny podle data
+        trimmed = trimmed + "wwwroot\\images\\" + "image" + DateTime.Now.Year + DateTime.Now.Month + DateTime.Now.Day + DateTime.Now.Hour + DateTime.Now.Minute + DateTime.Now.Second + ".jpg";
+    //set txt path
+        string directory = Path.GetDirectoryName(trimmed);
+        string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(trimmed);
+        trimmedtxt = Path.Combine(directory, fileNameWithoutExtension);
+        trimmedtxt = trimmedtxt + ".txt";
+
+        if (selectedFile != null && text != null || text != "")
+        {
+            byte[] imgfileBytes;
+            byte[] txtfileBytes;
+            using (var memoryStream = new MemoryStream())
+            {
+    //imagesave
+                try
+                {
+                    await selectedFile.OpenReadStream().CopyToAsync(memoryStream);
+                    imgfileBytes = memoryStream.ToArray();
+                }
+                catch (Exception e)
+                {
+                    debugstr = "Image is too big";
+                    return;
+                }
+
+    //textsave
+                if (text.Length > 500)
+                {
+                    debugstr = "Text is too long";
+                    return;
+                }
+                txtfileBytes = Encoding.UTF8.GetBytes(Credentials.username + ": " + text);
+            }
+            File.WriteAllBytes(trimmed, imgfileBytes);
+            File.WriteAllBytes(trimmedtxt, txtfileBytes);
+            debugstr = "Post sent!";
+        }
+    }
+
+    string TrimPath(string path, int levelsToRemove)
+    {
+        string[] parts = path.TrimEnd('\\').Split(Path.DirectorySeparatorChar);
+        if (parts.Length > levelsToRemove)
+        {
+            string[] trimmedParts = parts.Take(parts.Length - levelsToRemove).ToArray();
+            return string.Join(Path.DirectorySeparatorChar.ToString(), trimmedParts) + Path.DirectorySeparatorChar;
+        }
+        else
+        {
+            return path;
+        }
+    }
+
+    private void CountImages()
+    {
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        trimmed = trimmed + "wwwroot\\images\\";
+        images = Directory.GetFiles(trimmed).Select(Path.GetFileName).Where(fileName => fileName.EndsWith(".jpg")).OrderByDescending(fileName => fileName).ToArray();
+        debugstr = images.Length.ToString();
+    }
+
+    private void CountTexts()
+    {
+        string trimmed = TrimPath(AppDomain.CurrentDomain.BaseDirectory, 3);
+        trimmed = trimmed + "wwwroot\\images\\";
+        string[] textPaths = Directory.GetFiles(trimmed).Where(fileName => fileName.EndsWith(".txt")).OrderByDescending(fileName => fileName).ToArray();
+        texts = new string[textPaths.Length];
+        for (int i = 0; i < textPaths.Length; i++)
+        {
+            texts[i] = File.ReadAllText(textPaths[i]);
+        }
+        debugstr = texts.Length.ToString();
+    }
+}

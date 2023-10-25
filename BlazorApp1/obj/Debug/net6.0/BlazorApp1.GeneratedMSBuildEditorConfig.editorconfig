@@ -1,8 +1,4 @@
 is_global = true
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = 
-build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -28,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/om777/OneDrive/Dokumenty/Projects/BlazorApp1/BlazorApp1/Pages/Blog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/om777/OneDrive/Dokumenty/Projects/BlazorApp1/BlazorApp1/Pages/BlogWindows.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1dpbmRvd3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/om777/OneDrive/Dokumenty/Projects/BlazorApp1/BlazorApp1/Pages/Counter.razor]
