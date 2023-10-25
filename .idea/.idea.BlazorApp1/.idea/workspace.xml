@@ -9,49 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae82e378-eacb-4946-9ccd-10565bebba9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/Pages/BlogWindows.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/Shared/Credentials.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153821.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153821.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153937.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023153937.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023154618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image20231023154618.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102316059.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102316059.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102461934.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102461934.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462124.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462124.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102462211.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlazorApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/BlazorApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/BlazorApp1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/Shared/MainLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102522359.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorApp1/wwwroot/images/image2023102522359.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Data/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Data/WeatherForecastService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Pages/Counter.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Pages/FetchData.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Shared/NavMenu.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Shared/NavMenu.razor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/Shared/SurveyPrompt.razor" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/BlazorApp1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/BlazorApp1.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets/msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/staticwebassets/msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +172,7 @@
       <workItem from="1697846046359" duration="10768000" />
       <workItem from="1697911025944" duration="12078000" />
       <workItem from="1698068025819" duration="11211000" />
-      <workItem from="1698263807882" duration="197000" />
+      <workItem from="1698263807882" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -262,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697912325620</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="before cleanup">
+      <option name="closed" value="true" />
+      <created>1698264055161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698264055161</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +284,8 @@
     <MESSAGE value="trimmed = 5" />
     <MESSAGE value="All trim = 5" />
     <MESSAGE value="linux release 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="linux release 2" />
+    <MESSAGE value="before cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="before cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
