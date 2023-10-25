@@ -113,6 +113,14 @@
       "PackagePath": "staticwebassets\\images\\image20231025222024.txt"
     },
     {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image2023102602511.jpg",
+      "PackagePath": "staticwebassets\\images\\image2023102602511.jpg"
+    },
+    {
+      "Id": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image2023102602511.txt",
+      "PackagePath": "staticwebassets\\images\\image2023102602511.txt"
+    },
+    {
       "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Blog.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

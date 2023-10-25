@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8tBw9K3MvKsysUibBySRLCiuNTUPdjbT0nOaSSajEkM=",
+  "Hash": "yMzbJetnb2emeVcOvmxyI6QCNYNDzQcKi/vPkLP+o9w=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
@@ -566,6 +566,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\image20231025222024.txt"
+    },
+    {
+      "Identity": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image2023102602511.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "images/image2023102602511.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image2023102602511.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\images\\image2023102602511.txt",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\om777\\OneDrive\\Dokumenty\\Projects\\Blog\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "images/image2023102602511.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image2023102602511.txt"
     }
   ]
 }
