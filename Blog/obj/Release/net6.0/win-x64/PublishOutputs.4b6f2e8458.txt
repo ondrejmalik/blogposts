@@ -1,0 +1,4 @@
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\win-x64\publish\appsettings.Development.json
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\win-x64\publish\appsettings.json
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\win-x64\publish\Blog.pdb
+C:\Users\om777\OneDrive\Dokumenty\Projects\Blog\Blog\bin\Release\net6.0\win-x64\publish\Blog.exe
